@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Porfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Mi Porfolio</h1>
+        <h2>Cristian Astulli de la Cruz</h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre_mi">Sobre mí</a></li>
+                <li><a href="#cv">Mi CV</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="sobre_mi">
+            <h3>Sobre mi</h3>
+            <p>
+                soy estudiante avanzado de Ingeniería en Sistemas de Información (UTN), 
+                actualmente cursando el tercer año. Poseo sólidos conocimientos en Java, Spring Boot, 
+                SQL, POO y análisis de sistemas, adquiridos tanto en la universidad como a través de cursos complementarios.
+                busco mi primera experiencia profesional en el área IT, 
+                donde pueda aplicar mis habilidades técnicas y continuar aprendiendo. 
+                Mi experiencia laboral previa en atención al cliente y tareas administrativas 
+                me permitió desarrollar responsabilidad, comunicación efectiva y capacidad para 
+                trabajar en equipo bajo presión.
+            </p>
+        </section>
+
+        <section id="cv">
+            <h3>Mi CV</h3>
+            <p>Tecnologías:</p>
+            <ul>
+                <li>JAVA</li>
+                <li>Spring Boot</li>
+                <li>C</li>
+                <li>SQL</li>
+                <li>github - Git</li>
+                <li>Postman</li>
+            </ul>
+            <p>
+                <a href="https://github.com/castullidelacruz/mis_proyectos/blob/main/CV-CristianAstulliDeLaCruz.pdf" 
+                target="_blank">
+                    <strong>Curriculum Vitae</strong>
+                </a>
+            </p>
+
+        </section>
+
+        <section id="proyectos">
+            <h3>Proyectos</h3>
+            <ul>
+        <li><strong>Calculadora básica en Java</strong> – consola, uso de POO y validaciones simples.</li>
+        <li><strong>API REST de tareas</strong> – Spring Boot, CRUD, Postman, endpoints RESTful.</li>
+        <li><strong>Mi porfolio</strong> – HTML, CSS, React, JavaScript, Front end, Back end.</li>
+    </ul>
+        </section>
+
+        <section id="certificados">
+            <h3>Certificados</h3>
+            <ul>
+                <li>
+                    Desarrollo de APIs en JAVA con Spring Boot – TodoCode Academy 
+                    (<a href="https://todocodeacademy.com/certificate/spring-boot-sau/" target="_blank">ver certificado</a>)
+                </li>
+                <li>
+                    Programación Orientada a Objetos – Educación IT 
+                    (<a href="https://www.educacionit.com/perfil/cristian-astulli-de-la-cruz-812316/certificado/58104" target="_blank">ver certificado</a>)
+                </li>
+                <li>
+                    Inglés intermedio – EF SET 
+                    (<a href="https://cert.efset.org/MJNK4P" target="_blank">ver certificado</a>)
+                </li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <form id="formulario-contacto">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="nombre" required><br><br>
+
+                <label for="femail">Correo electrónico:</label><br>
+                <input type="email" id="femail" name="email" required><br><br>
+
+                <label for="fmensaje">Mensaje:</label><br>
+                <textarea id="fmensaje" name="mensaje" rows="5" cols="20" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <a href="mailto:cristianastullidlc@gmail.com">
+        <img src="./imagenes/logoMail.png" alt="Mail" height="25" width="25">
+        </a>
+        <a href="https://www.linkedin.com/in/tu-linkedin" target="_blank">
+            <img src="./imagenes/logoLinkedin.png" alt="LinkedIn" height="25" width="25">
+        </a>
+        <a href="tel:+541158485483">
+            <img src="./imagenes/logoTel.png" alt="Teléfono" height="25" width="25">
+        </a>
+    </footer>
+
+</body>
+</html>
