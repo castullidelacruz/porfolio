@@ -1,0 +1,122 @@
+@media (max-width: 600px) {
+    /* General */
+    body {
+        margin: 0;
+        background-color: #f5f5f5;
+        color: #333;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Header */
+    header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    /* Navegación */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin: 1rem 0 0 0;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* Main */
+    main {
+        padding: 2rem;
+        max-width: 900px;
+        margin: auto;
+        background-color: white;
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 10px;
+    }
+
+    /* Secciones */
+    section {
+        padding: 3rem 1.5rem;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+
+    ol {
+        list-style-type: none;
+    }
+
+    h3 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+    }
+    /* Formulario de contacto */
+    form input,
+    form textarea {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 0.3rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+
+    }
+
+    form input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    form label {
+        font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem;
+        background-color: #eee;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
