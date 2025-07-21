@@ -112,6 +112,19 @@
         flex-wrap: wrap;
     }
 
+    .carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem 0;
+    scrollbar-width: none; /* Firefox */
+    }
+
+    .carrusel::-webkit-scrollbar {
+    display: none; /* Chrome */
+    }
+
 
 }
 
